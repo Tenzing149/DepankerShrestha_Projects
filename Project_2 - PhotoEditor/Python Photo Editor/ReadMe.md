@@ -12,8 +12,8 @@ In order to create this WebApp photo editor, you will need to do a couple of thi
 5. OS
 
 Instructions:
-1. click on the upload button in which you are able to upload photos that are either JPG, PNG, or JPEG files
-2. when the image is uploaded, the user is able choose which filter they desire
+1. Click on the upload button in which you are able to upload photos that are either JPG, PNG, or JPEG files
+2. When the image is uploaded, the user is able choose which filter they desire
 3. The original image and the edited image will be placed side by side
 4. The user is able to choose the intensity of the filter to get the perfect image they desire
 5. Once the user is satisfied with their image, they are able to download it
