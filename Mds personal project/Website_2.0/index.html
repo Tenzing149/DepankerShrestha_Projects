@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">RESUME</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>SOFTWARE ENGINEER | COLLEGE STUDENT</p>
+                <h1>Hi, I'm <span>MD Jelani</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/unnamed.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br/>
+                    <p>I embarked on my web development adventure during my 7th-grade IT class, where I was introduced to the fascinating world 
+                        of coding. From that moment on, my passion for creating with code ignited, leading me to dive deeper into the realm of 
+                        Computer Science. Currently, I am fortunate to collaborate with esteemed professors and a dedicated lab coordinator, 
+                        working together on personal projects that push the boundaries of what we can achieve. With the support of my talented 
+                        team, we strive to make a positive impact in the world through our collective efforts.</p>
+                    <br/>
+                      <p>As a first-generation student, education holds a special place in my heart. It is an invaluable tool that has the power 
+                        to transform lives and create lasting change. Driven by this belief, I am determined to reach new heights and surpass the 
+                        achievements of my peers. My ultimate goal is to contribute to the betterment of society and make a meaningful difference 
+                        in the world.</p>
+                    <br/>
+                      <p>Beyond the realm of coding, I find immense joy in embracing life's simple pleasures. Whether it's basking in the sun at 
+                        the beach, cherishing quality time with loved ones, or embarking on exciting adventures around the globe, I am a firm 
+                        believer in the transformative power of exploration. As a child, I often dreamt of traversing the world and immersing 
+                        myself in diverse cultures, as I understood that true knowledge is derived from such rich experiences. It is this thirst 
+                        for knowledge and understanding that fuels my desire to continuously learn and grow.</p>
+                    <br/>
+                      <p>Thank you for joining me on this extraordinary journey. Together, let's harness the power of education, innovation, and 
+                        exploration to shape a brighter future for all.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br/>Web app Development</li>
+                            <br/>
+                            <li><span>Hardware</span><br/>Arduino Functionality</li>
+                            <br/>
+                            <li><span>Software Skills</span><br/>Python<br/>HTML<br/>CSS<br/>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Aug 2022 - Dec 2022</span><br/>Classroom IT/AV Support at FAU Charles E. Schmidt College of Medicine</li>
+                            <br/>
+                            <li><span>May 2022 - Aug 2022</span><br/>Electronics Technician at Target</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Current</span><br/>BA CS from Florida Atlantic University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--projects-->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/project1.jpg" style="width: 450px; height: 363px">
+                    <div class="layer">
+                        <h3>Image Filter Editor</h3>
+                        <p>This is a basic photo editor that consists of 5 filters that users can use and change the intensity of the filter. Filters are Gray Image, Black and White, Pencil Sketch, Blur Effect, and Invert. Python3 and its following libraries were used:</p>
+                        <ul>
+                            <li>streamlit</li>
+                            <li>numpy</li>
+                            <li>pillow</li>
+                            <li>opencv</li>
+                        </ul>
+                        <a href="https://github.com/Sowrav12/PhotoEditor.git" target='_blank'><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project2.jpg" style="width: 450px; height: 363px">
+                    <div class="layer">
+                        <h3>Hovercraft.v1.0</h3>
+                        <p>Using Arduino components, my team created a hovercraft using a styrofoam board base. Components consisted of Arduino module, jumper wires, breadboard, and propellers powered by 9v batteries.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/project3.jpg" style="width: 450px; height: 363px">
+                    <div class="layer">
+                        <h3>Future Project</h3>
+                        <p>This will be a future project.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
