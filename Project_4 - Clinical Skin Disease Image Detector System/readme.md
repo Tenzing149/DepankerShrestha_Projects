@@ -7,12 +7,6 @@
 ## Goal
 The goal of this project is to design, implement, and evaluate a clinical skin diseases image detector system capable of accurately identifying various skin conditions from images.
 
-## Table of Contents
-1. [Installation](#1-installation)
-2. [Configuration](#2-configuration)
-3. [Running the Code](#3-running-the-code)
-4. [Supporting Files](#4-supporting-files)
-
 ## 1. Installation
 
 ### Requirements
